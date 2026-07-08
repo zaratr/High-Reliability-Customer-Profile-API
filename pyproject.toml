@@ -21,6 +21,8 @@ structlog = "^24.1.0"
 prometheus-client = "^0.20.0"
 aiohttp = "^3.9.3"
 httpx = "^0.27.0"
+# libSQL/Turso edge read-replica client (HTTP wire protocol, WASM-compatible).
+libsql-client = "^0.3.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
